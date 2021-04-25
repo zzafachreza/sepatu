@@ -112,6 +112,12 @@
               </div>
             </nav>
           </div>
+          <div class="col-lg-4">
+            <div class="row" style="justify-content: flex-end;">
+              <button style="width: 100px;margin-right: 5%;background-color: transparent;border:1px solid #FFF;color: #FFF;border-radius: 50px">Login</button>
+               <button style="width: 100px;margin-right: 0%background-color: #FFF;border:1px solid #FFF;color: #238975;border-radius: 50px">Sign Up</button>
+            </div>
+          </div>
         
         </div>
       </div>

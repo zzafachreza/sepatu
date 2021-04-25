@@ -23,11 +23,12 @@ class Welcome extends CI_Controller {
     $DEVICE = ($iPod||$iPad||$iPhone||$Android||$iOS||$webOS||$Blackberry||$IEMobile||$OperaMini);
 
     	$data['DEVICE'] = $DEVICE;
-    	$data['TITLE'] = "Zavalabs - Web and Mobile Development";
-    	$data['DESCRIPTION'] = "Web and Mobile Development, We Don't Just Develop Apps, We Build Dream";
+    	$data['TITLE'] = "Shoes - Reparasi Sepatu";
+    	$data['DESCRIPTION'] = "Reparasi Sepatu Terbaik";
     	
 		$this->load->view('header',$data);
 		$this->load->view('slider');
+        $this->load->view('home');
 		
 		$this->load->view('footer');
 	}
