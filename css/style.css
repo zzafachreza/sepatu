@@ -28,6 +28,28 @@ Design and Developed by: iqonicthemes.in
 /*---------------------------------------------------------------------
 1 Header
 -----------------------------------------------------------------------*/
+
+@font-face {
+  font-family:Poppins-Regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family:Poppins-Bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family:Poppins-ExtraBold;
+  src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family:Poppins-Medium;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family:Poppins-SemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
 .float{
   position:fixed;
   width:160px;
@@ -136,7 +158,7 @@ header .login li.search #btn-search:hover { opacity: 0.8; }
 /*---------------------------------------------------------------------
  1 Header sticky 
  -----------------------------------------------------------------------*/
-header.menu-sticky { background: rgba(117, 205, 111, 1); background: -moz-linear-gradient(0deg, rgb(33, 70, 105) 0%, rgb(9, 27, 47) 100%); background: -webkit-linear-gradient(0deg, rgb(33, 70, 105) 0%, rgb(9, 27, 47) 100%); background: -ms-linear-gradient(0deg, rgb(33, 70, 105) 0%, rgb(9, 27, 47) 100%); -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); position: fixed; z-index: 99; }
+header.menu-sticky { background-color: #8cc454; position: fixed; z-index: 99; }*/
 
 header.menu-sticky .navbar-light .navbar-nav li.active .nav-link, header.menu-sticky .navbar-light .navbar-nav li .nav-link:hover { color: #ffffff; }
 header.menu-sticky .navbar-light .navbar-nav .nav-link, header.menu-sticky .navbar-light .navbar-nav .nav-link:focus { color: #ffffff; }
