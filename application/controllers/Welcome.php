@@ -32,6 +32,7 @@ class Welcome extends CI_Controller {
          $this->load->view('penawaran');
          $this->load->view('jurnal');
          $this->load->view('workshop');
+          $this->load->view('pengalaman');
 		
 		$this->load->view('footer');
 	}

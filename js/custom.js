@@ -183,7 +183,7 @@ Index Of Script
                 dots: $carousel.data("dots"),
                 autoplay: $carousel.data("autoplay"),
                 autoplayTimeout: $carousel.data("autoplay-timeout"),
-                navText: ['<i class="fa fa-angle-left fa-2x"></i>', '<i class="fa fa-angle-right fa-2x"></i>'],
+                navText: ['<i class="fa fa-chevron-circle-left fa-2x"></i>', '<i class="fa fa-chevron-circle-right fa-2x"></i>'],
                 responsiveClass: true,
                 responsive: {
                     // breakpoint from 0 up
