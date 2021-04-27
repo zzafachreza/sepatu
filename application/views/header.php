@@ -45,7 +45,7 @@
     <!-- loading -->
     <div id="loading" style="background-color: #ACF2BB">
       <div id="loading-center">
-        <center> <img class="loadingya" src="images/logo/icon.png"><br/>
+        <center> <img class="loadingya" src="images/logo/icon.png" style="text-shadow: 3px 6px 6px #00000052;"><br/>
         <!-- <img src="images/loading.gif" alt="loder"> -->
         </center>
       </div>
@@ -69,7 +69,7 @@
               <button class="navbar-toggler" type="button" style="background-color: transparent;border-width: 0px" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fa fa-bars fa-1x" style="color: #FFF"></i>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown" style="font-family: Poppins-Regular;text-shadow: 3px 6px 6px #00000052">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown" style="font-family: Poppins-Regular;">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="./" ><i class="fa fa-home fa-1x"></i></a>
@@ -114,8 +114,8 @@
           </div>
           <div class="col-lg-4">
             <div class="row" style="justify-content: flex-end;">
-              <button style="width: 100px;margin-right: 5%;background-color: transparent;border:1px solid #FFF;color: #FFF;border-radius: 50px">Login</button>
-               <button style="width: 100px;margin-right: 0%background-color: #FFF;border:1px solid #FFF;color: #8cc454;border-radius: 50px">Sign Up</button>
+              <button style="box-shadow: 3px 6px 6px #00000052;width: 100px;margin-right: 5%;background-color: transparent;border:1px solid #FFF;color: #FFF;border-radius: 50px">Login</button>
+               <button style="box-shadow: 3px 6px 6px #00000052;width: 100px;margin-right: 0%background-color: #FFF;border:1px solid #FFF;color: #8cc454;border-radius: 50px">Sign Up</button>
             </div>
           </div>
         

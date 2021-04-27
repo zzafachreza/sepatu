@@ -12,7 +12,7 @@
 ?>
 
 
-   <a href="<?php echo $urlWA ?>" class="float">
+   <a href="<?php echo $urlWA ?>" class="float" style="box-shadow: 3px 6px 6px #00000052;">
     <img src="images/logo/wa.png" width="150">
    </a>
    
