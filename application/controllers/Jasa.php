@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-class Welcome extends CI_Controller {
+class Jasa extends CI_Controller {
 
 
 	public function index()
@@ -27,13 +27,10 @@ class Welcome extends CI_Controller {
     	$data['DESCRIPTION'] = "Reparasi Sepatu Terbaik";
     	
 		$this->load->view('header',$data);
-		$this->load->view('slider');
-        $this->load->view('jasa_reparasi');
-         $this->load->view('penawaran');
-         $this->load->view('jurnal');
-         $this->load->view('workshop');
-          $this->load->view('pengalaman');
-		$this->load->view('content_footer');
+		
+    $this->load->view('jasa');
+        
+		
 		$this->load->view('footer');
 	}
 

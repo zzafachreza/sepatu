@@ -4,7 +4,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="theme-color" content="#ACF2BB">
+    <meta name="theme-color" content="#8cc454">
 
   <meta data-rh="true" property="og:title" content="<?php echo $TITLE ?>"/>
   <meta data-rh="true" property="og:site_name" content="Zavalabs"/>
@@ -75,7 +75,7 @@
                     <a class="nav-link" href="./" ><i class="fa fa-home fa-1x"></i></a>
                   </li>
                    <li class="nav-item">
-                    <a class="nav-link" href="./" >JASA</a>
+                    <a class="nav-link" href="./jasa" >JASA</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./" >PANDUAN</a>
