@@ -1,6 +1,4 @@
-
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -78,7 +76,7 @@
                     <a class="nav-link" href="./jasa" >JASA</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./" >PANDUAN</a>
+                    <a class="nav-link" href="./panduan" >PANDUAN</a>
                   </li>
                    <li class="nav-item">
                     <a class="nav-link" href="./" >AKTIFITAS</a>
