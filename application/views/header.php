@@ -36,7 +36,11 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
        <link rel="stylesheet" href="css/owl.theme.default.css">
 
-    
+    <style type="text/css">
+      button:hover{
+        cursor: pointer;
+      }
+    </style>
 
   </head>
   <body>
@@ -112,8 +116,8 @@
           </div>
           <div class="col-lg-4">
             <div class="row" style="justify-content: flex-end;">
-              <button style="box-shadow: 3px 6px 6px #00000052;width: 100px;margin-right: 5%;background-color: transparent;border:1px solid #FFF;color: #FFF;border-radius: 50px">Login</button>
-               <button style="box-shadow: 3px 6px 6px #00000052;width: 100px;margin-right: 0%background-color: #FFF;border:1px solid #FFF;color: #8cc454;border-radius: 50px">Sign Up</button>
+              <button onclick="window.location.href='login'" style="box-shadow: 3px 6px 6px #00000052;width: 100px;margin-right: 5%;background-color: transparent;border:1px solid #FFF;color: #FFF;border-radius: 50px">Login</button>
+               <button onclick="window.location.href='register'" style="box-shadow: 3px 6px 6px #00000052;width: 100px;margin-right: 0%background-color: #FFF;border:1px solid #FFF;color: #8cc454;border-radius: 50px">Sign Up</button>
             </div>
           </div>
         
