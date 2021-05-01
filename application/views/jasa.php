@@ -17,7 +17,7 @@
 
 </style>
 
-<div style="background: linear-gradient(0deg, rgba(255,251,251,1) 0%, rgba(14,14,14,0.34) 100%);height: 80px"></div>
+<div style="background: linear-gradient(0deg, rgba(255,251,251,1) 0%, rgba(14,14,14,0.34) 100%);height: 100px"></div>
 <div>
 	<div class="col-sm-3" style="background-color: ;padding: 2%;float: left;">
 		<p style="font-family: Poppins-Regular;color: #238975">FILTER JASA</p>

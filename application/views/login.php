@@ -1,4 +1,4 @@
- <div style="background: linear-gradient(0deg, rgba(255,251,251,1) 0%, #8cc454 100%);height: 80px"></div>
+ <div style="background: linear-gradient(0deg, rgba(255,251,251,1) 0%, #8cc454 100%);height: 100px"></div>
 <div>
  <div class="container">
       <div class="card login-card" style="border-radius: 20px;overflow: hidden;">

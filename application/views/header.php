@@ -83,10 +83,10 @@
                     <a class="nav-link" href="./panduan" >PANDUAN</a>
                   </li>
                    <li class="nav-item">
-                    <a class="nav-link" href="./" >AKTIFITAS</a>
+                    <a class="nav-link" href="./aktifitas" >AKTIFITAS</a>
                   </li>
                      <li class="nav-item">
-                    <a class="nav-link" href="./" >JURNAL</a>
+                    <a class="nav-link" href="./jurnal" >JURNAL</a>
                   </li>
                    <li class="nav-item">
                     <a class="nav-link" href="./" ><i class="fa fa-search fa-1x"></i></a>
