@@ -59,6 +59,7 @@
  $nav = explode("/", $_SERVER['REQUEST_URI']);
  $menu = $nav[2];
 
+
 ?>
         <!--=================================
     Header -->
@@ -116,8 +117,27 @@
           </div>
           <div class="col-lg-4">
             <div class="row" style="justify-content: flex-end;">
+              <?php 
+
+              if (!empty($_SESSION['email'])) {
+                # code...
+            
+              ?>
+
+               <span style="font-family: Poppins-Regular;color:#FFF">Selamat datang,&nbsp;</span> <span style="font-family: Poppins-Bold;color:#FFF"><?php echo $_SESSION['nama_lengkap'] ?></span>&nbsp;<a href="login/logout" style="font-family: Poppins-Regular;color:#FFF">(&nbsp;LOGOUT&nbsp;)</a>
+
+              <?php 
+
+               } else{
+              ?>
+
               <button onclick="window.location.href='login'" style="box-shadow: 3px 6px 6px #00000052;width: 100px;margin-right: 5%;background-color: transparent;border:1px solid #FFF;color: #FFF;border-radius: 50px">Login</button>
                <button onclick="window.location.href='register'" style="box-shadow: 3px 6px 6px #00000052;width: 100px;margin-right: 0%background-color: #FFF;border:1px solid #FFF;color: #8cc454;border-radius: 50px">Sign Up</button>
+
+               <?php 
+
+                  }
+               ?>
             </div>
           </div>
         
