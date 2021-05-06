@@ -33,6 +33,15 @@ Index Of Script
     "use strict";
     $(document).ready(function() {
 
+
+        // rahan develpment
+
+           $(".voucher").on("click", function(event) {
+
+            // $(this).css({'margin-top':'10px'})
+               
+            $('.dataVoucher').text($(this).text());
+        });
     
 
 

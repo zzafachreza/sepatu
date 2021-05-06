@@ -13,7 +13,7 @@ src="https://www.youtube.com/embed/G7uGRLx10VQ">
 	</div>
 
 	<div style="background-color:;float: left;padding: 0%;position: relative;" class="col-sm-6">
-		<img src="images/logo/kanan.png" style="width: 1000px;position: absolute;z-index: -10;right: -45%;top: -30%">
+		<img src="images/logo/kanan.png" style="width: 1000px;position: absolute;z-index: -10;top: -30%">
 		<p style="font-family:Poppins-SemiBold;color:#000">7 Alasan Kamu Harus Reparasi Sepatu di Shoe Workshop</p>
 		<div style="float: left;width: 100%">
 			<div style="float: left;">

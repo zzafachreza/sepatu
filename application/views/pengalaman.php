@@ -1,6 +1,6 @@
  <!-- Partner-->
  <style type="text/css">
-   .owl-prev, .owl-next {
+   .kedua .owl-prev, .owl-next {
         width: 15px;
         height: 0px;
         position: absolute;
@@ -11,22 +11,9 @@
         transition-duration: 1s;
         transition-property: left,right;
     }
-    .owl-prev { left: -5%; }
-    .owl-next { right: -5%; }
-    .owl-prev i, .owl-next i {transform : scale(1.5,1.5);}
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+    .kedua  .owl-prev { left: -5%; }
+    .kedua  .owl-next { right: -5%; }
+    .kedua  .owl-prev i, .kedua  .owl-next i {transform : scale(1.5,1.5);}
 
 
 </style>
@@ -41,7 +28,7 @@
              <div class="container" style="padding:5%" >
          <img src="images/logo/kiri.png" style="width: 750px;z-index: -1;left: -20%;position: absolute;">
 
-               <div class="owl-carousel owl-theme" data-autoplay="true" data-loop="true" data-nav="true" data-items="2" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-margin="30" data-dots="false" >
+               <div class="owl-carousel owl-theme kedua" data-autoplay="true" data-loop="true" data-nav="true" data-items="2" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-margin="30" data-dots="false" >
 
                     <div class="" style="padding: 5%">
                       <div style="width: 100%;border-radius: 20px;overflow:hidden;">

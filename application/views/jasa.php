@@ -68,7 +68,117 @@
 
 	</div>
 	<div class="col-sm-9" style="background-color: ;padding-top:3%;float: left;">
-		<div style="margin:2%;background-color: #707070;padding:2%">
+		
+		<div style="padding-left: 2%;padding-right: 2%">
+			<form>
+				<input type="text" placeholder='Contoh: "New Balance" atau "Ganti Sol"' name="pencarian" class="" style="background-color: #E8F3EB;width: 100%;color: #000">
+			<i class="fa fa-search" style="position: absolute;right: 50px;top: 65px"></i>
+			</form>
+		</div>
+
+		<?php if (!empty($_GET['pencarian'])): ?>
+
+			<dir class="container-fluid">
+				<div class="row">
+				<div  style="height: 250px;margin:1%;width: 30%;box-shadow: 0px 3px 6px #707070;border-bottom-right-radius: 20px;border-bottom-left-radius:20px ">
+					<div class="container-fluid">
+						<div class="row">
+							<div style="width: 50%">
+								<img src="images/logo/before.png" style="width: 100%">
+							</div>
+							<div style="width: 50%">
+								<img src="images/logo/after.png" style="width: 100%">
+							</div>
+							<div class="col-sm-12">
+								<span style="font-family: Poppins-SemiBold;color: #29D89F;">NEW BALANCE SNEAKERS 00001</span>
+								<span style="float: right;">
+									<div class="btn-group dropup">
+									
+									<i class="fa fa-ellipsis-v" data-toggle="dropdown"></i>
+							
+								  <div class="dropdown-menu">
+								        <a class="dropdown-item" href="#">Favouritkan</a>
+									    <a class="dropdown-item" href="#">Referensikan</a>
+									    <a class="dropdown-item" href="#">Share</a>
+								  </div>
+								</div>
+								</span>
+
+								<p style="font-family: Poppins-Regular;color: #7F7F7F;">Sol | Midsole</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div  style="height: 250px;margin:1%;width: 30%;box-shadow: 0px 3px 6px #707070;border-bottom-right-radius: 20px;border-bottom-left-radius:20px ">
+					<div class="container-fluid">
+						<div class="row">
+							<div style="width: 50%">
+								<img src="images/logo/before2.png" style="width: 100%">
+							</div>
+							<div style="width: 50%">
+								<img src="images/logo/after2.png" style="width: 100%">
+							</div>
+							<div class="col-sm-12">
+								<span style="font-family: Poppins-SemiBold;color: #29D89F;">NIKE SNEAKERS 00001</span>
+								<span style="float: right;">
+									<div class="btn-group dropup">
+									
+									<i class="fa fa-ellipsis-v" data-toggle="dropdown"></i>
+							
+								  <div class="dropdown-menu">
+								        <a class="dropdown-item" href="#">Favouritkan</a>
+									    <a class="dropdown-item" href="#">Referensikan</a>
+									    <a class="dropdown-item" href="#">Share</a>
+								  </div>
+								</div>
+								</span>
+
+								<p style="font-family: Poppins-Regular;color: #7F7F7F;">Upper | Vamp | Heel Counter</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div  style="height: 250px;margin:1%;width: 30%;box-shadow: 0px 3px 6px #707070;border-bottom-right-radius: 20px;border-bottom-left-radius:20px ">
+					<div class="container-fluid">
+						<div class="row">
+							<div style="width: 50%">
+								<img src="images/logo/before3.png" style="width: 100%">
+							</div>
+							<div style="width: 50%">
+								<img src="images/logo/after3.png" style="width: 100%">
+							</div>
+							<div class="col-sm-12">
+								<span style="font-family: Poppins-SemiBold;color: #29D89F;">NIKE SNEAKERS 00002</span>
+								<span style="float: right;">
+									<div class="btn-group dropup">
+									
+									<i class="fa fa-ellipsis-v" data-toggle="dropdown"></i>
+							
+								  <div class="dropdown-menu">
+								        <a class="dropdown-item" href="#">Favouritkan</a>
+									    <a class="dropdown-item" href="#">Referensikan</a>
+									    <a class="dropdown-item" href="#">Share</a>
+								  </div>
+								</div>
+								</span>
+
+								<p style="font-family: Poppins-Regular;color: #7F7F7F;">Sol | Cupsole</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+			</dir>
+			
+		<?php endif ?>
+
+		<?php if (empty($_GET['pencarian'])): ?>
+
+			<div style="margin:2%;background-color: #707070;padding:2%">
 			 <div class="owl-carousel owl-theme" data-autoplay="true" data-loop="true" data-nav="true" data-items="1" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-margin="30" data-dots="false" >
 			 	<center><img src="images/logo/sepatu1.png" style="width: 500px"></center>
 			 	<center><img src="images/logo/sepatu2.png" style="width: 500px"></center>
@@ -96,5 +206,10 @@
 				 </div>
 			  </div>
 		</div>
+			
+		<?php endif ?>
+		
+
+
 	</div>
 </div>

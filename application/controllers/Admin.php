@@ -6,13 +6,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-class Login extends CI_Controller {
+class Admin extends CI_Controller {
 
 
 	public function index()
 	{	
 
-       
+
 
 		error_reporting(0);
     $useragent = $_SERVER['HTTP_USER_AGENT']; 
@@ -28,17 +28,25 @@ class Login extends CI_Controller {
     	$data['TITLE'] = "Shoes - Reparasi Sepatu";
     	$data['DESCRIPTION'] = "Reparasi Sepatu Terbaik";
     	
-		$this->load->view('header',$data);
+		$this->load->view('admin_header',$data);
+
+		if (!empty($_SESSION['email'])) {
+			# code...
+			$this->load->view('admin_nav');
+			$this->load->view('admin_home');
+		}else{
+
+			$this->load->view('admin_login');
+
+		}
 		
-    $this->load->view('login');
-        
+    	
 		
-		$this->load->view('footer');
+		$this->load->view('admin_footer');
 	}
 
 
-    
-    function validasi(){
+	function validasi(){
         
         // print_r($_POST);
 
@@ -64,12 +72,12 @@ echo        $sql = "SELECT * FROM master_user WHERE email='$email' AND password=
              $_SESSION['level'] = $i['level'];
              
                       
-            redirect('./');
+            redirect('admin');
         }
         else{
 
             echo $msg = "Maaf email atau password salah !";
-            redirect('login?err='.$msg);
+            redirect('admin?err='.$msg);
         }
        
 
@@ -89,9 +97,5 @@ echo        $sql = "SELECT * FROM master_user WHERE email='$email' AND password=
 
 
     }
-
-
-
-
 
 }

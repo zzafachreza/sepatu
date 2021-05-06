@@ -90,7 +90,7 @@
                     <a class="nav-link" href="./jurnal" >JURNAL</a>
                   </li>
                    <li class="nav-item">
-                    <a class="nav-link" href="./" ><i class="fa fa-search fa-1x"></i></a>
+                    <a class="nav-link" href="#" id="pencarian" data-toggle="modal" data-target="#exampleModal" ><i class="fa fa-search fa-1x"></i></a>
                   </li>
                <!--    <li class="nav-item dropdown <?php echo $menu=="web" ? "active":"" ?>">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -146,3 +146,23 @@
     </header>
     <!--=================================
     Header -->
+
+
+<!-- modal -->
+
+<!-- Modal -->
+<div style="background-color: #8cc454;" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pencarian</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input style="border-radius: 10px;border:1px solid #8cc454;" autofocus="autofocus" type="text" class="form-control" name="pencarian" placeholder="masukan kata kunci">
+      </div>
+    </div>
+  </div>
+</div>
