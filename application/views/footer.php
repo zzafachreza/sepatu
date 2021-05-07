@@ -34,36 +34,36 @@
     MAIN CONTENT -->
     <!-- Optional JavaScript -->
     <!-- jQuery first -->
-   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="<?php echo site_url() ?>js/jquery-3.3.1.min.js"></script>
     <!-- popper -->
-    <script src="js/popper.min.js"></script>
+    <script src="<?php echo site_url() ?>js/popper.min.js"></script>
     <!-- bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo site_url() ?>js/bootstrap.min.js"></script>
     <!-- Owl Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="<?php echo site_url() ?>js/owl.carousel.min.js"></script>
     <!-- daisy -->
-     <script src="js/daisy.js"></script>
+     <script src="<?php echo site_url() ?>js/daisy.js"></script>
     <!-- main -->
- <script src="js/simple-lightbox.js"></script>
+ <script src="<?php echo site_url() ?>js/simple-lightbox.js"></script>
           
     <script src="js/main.js"></script>
     <!-- REVOLUTION JS FILES -->
-    <script src="revslider/js/jquery.themepunch.tools.min.js"></script>
-    <script src="revslider/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/jquery.themepunch.revolution.min.js"></script>
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script src="revslider/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="revslider/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="revslider/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="revslider/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="revslider/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="revslider/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="revslider/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="<?php echo site_url() ?>revslider/js/extensions/revolution.extension.video.min.js"></script>
     <!-- Retina JavaScript -->
     <!-- <script src="js/retina.min.js"></script> -->
     <!-- Custom JavaScript -->
-    <script src="js/custom.js"></script>
+    <script src="<?php echo site_url() ?>js/custom.js"></script>
    
   </body>
 </html>

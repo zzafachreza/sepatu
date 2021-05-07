@@ -18,23 +18,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
     <title><?php echo $TITLE ?></title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/logo/icon.png">
+    <link rel="shortcut icon" href="<?php echo site_url() ?>images/logo/icon.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo site_url() ?>css/bootstrap.min.css">
     <!-- Settings CSS -->
-    <link rel="stylesheet" type="text/css" href="revslider/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo site_url() ?>revslider/css/settings.css">
     <!-- Typography CSS -->
-    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="<?php echo site_url() ?>css/typography.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo site_url() ?>css/style.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-      <link rel="stylesheet" href="css/animate.css">
-      <link rel="stylesheet" href="css/simple-lightbox.css">
+    <link rel="stylesheet" href="<?php echo site_url() ?>css/responsive.css">
+      <link rel="stylesheet" href="<?php echo site_url() ?>css/animate.css">
+      <link rel="stylesheet" href="<?php echo site_url() ?>css/simple-lightbox.css">
 
 
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-       <link rel="stylesheet" href="css/owl.theme.default.css">
+      <link rel="stylesheet" href="<?php echo site_url() ?>css/owl.carousel.min.css">
+       <link rel="stylesheet" href="<?php echo site_url() ?>css/owl.theme.default.css">
 
     <style type="text/css">
       button:hover{
@@ -47,7 +47,7 @@
     <!-- loading -->
     <div id="loading" style="background-color: #ACF2BB">
       <div id="loading-center">
-        <center> <img class="loadingya" src="images/logo/icon.png" style="text-shadow: 3px 6px 6px #00000052;"><br/>
+        <center> <img class="loadingya" src="<?php echo site_url() ?>images/logo/icon.png" style="text-shadow: 3px 6px 6px #00000052;"><br/>
         <!-- <img src="images/loading.gif" alt="loder"> -->
         </center>
       </div>
@@ -145,7 +145,7 @@
             
               ?>
 
-               <span style="font-family: Poppins-Regular;color:#FFF">Selamat datang,&nbsp;</span> <span style="font-family: Poppins-Bold;color:#FFF"><?php echo $_SESSION['nama_lengkap'] ?></span>&nbsp;<a href="login/logout" style="font-family: Poppins-Regular;color:#FFF">(&nbsp;LOGOUT&nbsp;)</a>
+               <span style="font-family: Poppins-Regular;color:#FFF">Selamat datang,&nbsp;</span> <span style="font-family: Poppins-Bold;color:#FFF"><?php echo $_SESSION['nama_lengkap'] ?></span>&nbsp;<a href="<?php echo site_url() ?>login/logout" style="font-family: Poppins-Regular;color:#FFF">(&nbsp;LOGOUT&nbsp;)</a>
 
 
               <?php 
