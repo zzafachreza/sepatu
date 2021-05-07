@@ -77,21 +77,42 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./" ><i class="fa fa-home fa-1x"></i></a>
                   </li>
+                              <?php 
+
+              if (!empty($_SESSION['email'])) {
+                # code...
+            
+              ?>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./profile" >PROFILE</a>
+                  </li>
+           
+
+              <?php   
+
+                }
+
+              ?>  
                    <li class="nav-item">
                     <a class="nav-link" href="./jasa" >JASA</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./panduan" >PANDUAN</a>
                   </li>
-                   <li class="nav-item">
+           <!--         <li class="nav-item">
                     <a class="nav-link" href="./aktifitas" >AKTIFITAS</a>
-                  </li>
+                  </li> -->
                      <li class="nav-item">
                     <a class="nav-link" href="./jurnal" >JURNAL</a>
                   </li>
                    <li class="nav-item">
                     <a class="nav-link" href="#" id="pencarian" data-toggle="modal" data-target="#exampleModal" ><i class="fa fa-search fa-1x"></i></a>
                   </li>
+
+       
+
+
                <!--    <li class="nav-item dropdown <?php echo $menu=="web" ? "active":"" ?>">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       SERVICES
@@ -125,6 +146,7 @@
               ?>
 
                <span style="font-family: Poppins-Regular;color:#FFF">Selamat datang,&nbsp;</span> <span style="font-family: Poppins-Bold;color:#FFF"><?php echo $_SESSION['nama_lengkap'] ?></span>&nbsp;<a href="login/logout" style="font-family: Poppins-Regular;color:#FFF">(&nbsp;LOGOUT&nbsp;)</a>
+
 
               <?php 
 

@@ -78,7 +78,7 @@
 
 		<?php if (!empty($_GET['pencarian'])): ?>
 
-			<dir class="container-fluid">
+			<div class="container-fluid">
 				<div class="row">
 				<div  style="height: 250px;margin:1%;width: 30%;box-shadow: 0px 3px 6px #707070;border-bottom-right-radius: 20px;border-bottom-left-radius:20px ">
 					<div class="container-fluid">

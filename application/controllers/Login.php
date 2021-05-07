@@ -60,7 +60,7 @@ echo        $sql = "SELECT * FROM master_user WHERE email='$email' AND password=
              $_SESSION['id'] = $i['id'];
              $_SESSION['nama_lengkap'] = $i['nama_lengkap'];
              $_SESSION['email'] = $i['email'];
-             $_SESSION['telepon'] = $i['alamat'];
+             $_SESSION['telepon'] = $i['telepon'];
              $_SESSION['level'] = $i['level'];
              
                       
